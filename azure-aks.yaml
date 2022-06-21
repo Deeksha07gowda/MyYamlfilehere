@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: learningcicd.azurecr.io/mypythondockerrepo:#{Build.BuildId}#
+        image: learningcicd.azurecr.io/deeksha07gowda/myyamlfilehere:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
